@@ -1,0 +1,35 @@
+navbar:
+  blog_title: 蔡涵的博客
+  menu:
+    - { key: home, link: / }
+    - { key: category, link: /categories/ }
+    - { key: archive, link: /archives/ }
+    - { key: about, link: /about/ }
+    - { key: 个人主页, link: 'https://cai-han.com/' }
+index:
+  banner_img: /img/default.png
+  banner_img_height: 80
+  slogan:
+    enable: true
+    text: 学习、实践，与慢慢想清楚的事
+post:
+  banner_img: /img/default.png
+  banner_img_height: 45
+  toc:
+    enable: true
+  copyright:
+    enable: false
+about:
+  banner_img: /img/default.png
+  banner_img_height: 45
+  avatar: /images/avatar.jpg
+  name: 蔡涵
+  intro: 南京大学 2025 级本科生 · 记录技术实践与学习过程
+fun_features:
+  typing:
+    enable: false
+dark_mode:
+  enable: true
+  default: light
+footer:
+  content: '© 2026 蔡涵 · Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> & <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="noopener">Fluid</a>'

@@ -4,7 +4,7 @@
 
 备用入口：https://dolphin2026-stl.github.io/blog/
 
-技术方案：Hexo 8 + NexT Muse + Node.js 24 + GitHub Actions + GitHub Pages。主页继续使用原有 Netlify 服务，以代理规则接入博客。
+技术方案：Hexo 8 + Fluid + Node.js 24 + GitHub Actions + GitHub Pages。主页继续使用原有 Netlify 服务，以代理规则接入博客。
 
 ## 日常写作
 
@@ -21,7 +21,7 @@ npm run server
 
 图片放到 `source/images/`，正文写 `![说明](/blog/images/文件名.jpg)`。建议压缩图片并使用无空格的英文文件名。
 
-`<!-- more -->` 上方是首页摘要。关于页面在 `source/about/index.md`，导航在 `_config.next.yml`，站点基本信息在 `_config.yml`。示例欢迎文章可删除。
+`<!-- more -->` 上方是首页摘要。关于页面在 `source/about/index.md`，导航、头图和主题设置在 `_config.fluid.yml`，站点基本信息在 `_config.yml`。`_config.next.yml` 保留为旧主题配置备份，不会生效。示例欢迎文章可删除。
 
 ## 发布
 

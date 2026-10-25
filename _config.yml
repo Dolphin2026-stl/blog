@@ -45,4 +45,4 @@ time_format: HH:mm
 updated_option: date
 per_page: 8
 pagination_dir: page
-theme: next
+theme: fluid

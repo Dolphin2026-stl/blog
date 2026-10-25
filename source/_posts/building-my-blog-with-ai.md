@@ -24,7 +24,7 @@ description: 用 Hexo、GitHub Actions 和 GitHub Pages 搭建博客，并接入
 2. **Hexo** 把 Markdown 和主题模板组合成 HTML、CSS 与 JavaScript 等静态文件。
 3. **GitHub Pages** 托管生成的文件，**GitHub Actions** 则负责在每次推送后自动构建和发布。
 
-这样不必为每篇文章单独写网页，也不用为了静态博客维护一台服务器。主题选用 NexT 的 Muse 风格，以正文阅读为主，并保留分类、归档、文章目录与手机布局。
+这样不必为每篇文章单独写网页，也不用为了静态博客维护一台服务器。最初采用 NexT Muse，随后换成了 Fluid：用大图页头搭配简洁的正文区域，并保留分类、归档、文章目录与手机布局。
 
 ## 已有主页，博客放在哪里？
 
@@ -71,7 +71,7 @@ url: https://cai-han.com/blog
 root: /blog/
 language: zh-CN
 timezone: Asia/Shanghai
-theme: next
+theme: fluid
 ```
 
 `url` 用于站点的正式链接，`root` 决定资源和站内链接的路径前缀。博客在子目录下运行时，不能默认所有资源都从网站根目录加载。
@@ -139,6 +139,6 @@ GitHub Actions 会准备 Linux 环境，安装相同版本的 Node.js 和锁定�
 ## 参考资料
 
 - [Hexo 官方文档](https://hexo.io/docs/)
-- [NexT 官方文档](https://theme-next.js.org/)
+- [Fluid 官方文档](https://hexo.fluid-dev.com/docs/)
 - [GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 - [Netlify 代理与重写](https://docs.netlify.com/manage/routing/redirects/rewrites-proxies/)
