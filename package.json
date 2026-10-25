@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "蔡涵的个人博客",
+  "scripts": {
+    "build": "hexo clean && hexo generate",
+    "server": "hexo server",
+    "new": "hexo new",
+    "clean": "hexo clean"
+  },
+  "keywords": [],
+  "author": "蔡涵",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "hexo": "^8.1.2",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-theme-next": "^8.29.1"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "hexo": {
+    "version": "8.1.2"
+  }
+}

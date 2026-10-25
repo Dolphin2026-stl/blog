@@ -1,0 +1,36 @@
+scheme: Muse
+darkmode: true
+menu:
+  首页: / || fa fa-home
+  分类: /categories/ || fa fa-th
+  归档: /archives/ || fa fa-archive
+  关于: /about/ || fa fa-user
+  个人主页: https://cai-han.com/ || fa fa-external-link-alt
+menu_settings:
+  icons: false
+  badges: false
+avatar:
+  url: /images/avatar.jpg
+  rounded: true
+sidebar:
+  position: left
+  display: post
+toc:
+  enable: true
+  number: true
+  wrap: true
+footer:
+  since: 2026
+  copyright: 蔡涵
+  powered: false
+  theme:
+    enable: false
+font:
+  enable: false
+codeblock:
+  copy_button:
+    enable: true
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true

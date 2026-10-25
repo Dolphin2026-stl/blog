@@ -1,0 +1,9 @@
+node_modules/
+public/
+db.json
+.deploy_git/
+.env
+.env.*
+!.env.example
+source/_drafts/
+*.log

@@ -1,0 +1,48 @@
+title: 蔡涵的博客
+subtitle: 学习、实践，与慢慢想清楚的事
+description: 记录 AI、技术实践与学习过程。
+author: 蔡涵
+language: zh-CN
+timezone: Asia/Shanghai
+url: https://cai-han.com/blog
+root: /blog/
+permalink: posts/:title/
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: []
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: false
+highlight:
+  enable: true
+  line_number: false
+prismjs:
+  enable: false
+index_generator:
+  path: ''
+  per_page: 8
+  order_by: -date
+archive_generator:
+  per_page: 20
+category_generator:
+  per_page: 20
+tag_generator:
+  per_page: 20
+date_format: YYYY-MM-DD
+time_format: HH:mm
+updated_option: date
+per_page: 8
+pagination_dir: page
+theme: next
