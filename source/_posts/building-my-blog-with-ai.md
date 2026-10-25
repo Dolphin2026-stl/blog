@@ -44,11 +44,6 @@ Netlify 的规则要放在原有的 SPA 回退规则前面：
 
 ```toml
 [[redirects]]
-  from = "/blog"
-  to = "/blog/"
-  status = 301
-
-[[redirects]]
   from = "/blog/*"
   to = "https://dolphin2026-stl.github.io/blog/:splat"
   status = 200
